@@ -1,0 +1,42 @@
+.content-header{
+    width: 60%;
+    text-align: center;
+    margin: 50px 0 20px;
+    font-weight: 200;
+    margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-header h2{
+    padding-bottom: 20px;
+}
+
+.main{
+    background-color: #f8f8f8;
+}
+.main .col-md-6{
+    overflow: hidden;
+}
+.main img{
+    display: block;
+    margin: 40px 20px;
+    border: 1px solid #ccc;
+}
+
+#scrollUp {
+    background-color: #777;
+    border: medium none;
+    bottom: 80px;
+    color: #eee;
+    font-size: 40px;
+    height: 46px;
+    line-height: 1;
+    opacity: 0.8;
+    overflow: hidden;
+    right: 30px;
+    text-align: center;
+    text-decoration: none;
+    width: 46px;
+}

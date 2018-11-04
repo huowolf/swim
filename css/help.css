@@ -1,0 +1,26 @@
+.panel{
+    margin-top:20px;
+}
+.panel-heading{
+    padding: 22px 40px;
+}
+
+.panel-body{
+    padding-left: 40px;
+}
+
+dt{
+    line-height: 30px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+dd{
+    line-height: 24px;
+    margin-left: 28px;
+}
+
+.panel-footer{ 
+    padding: 15px;
+    padding-left: 40px;
+}
