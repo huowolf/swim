@@ -1,0 +1,32 @@
+
+#indexCarousel img{
+    width: 1400px;
+    height: 500px;
+}
+
+.jumbotron{
+    margin-top: 20px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.left-content{
+    width: 500px;
+    height: 300px;
+}
+
+.right-content{
+    width: 440px;
+    padding: 0 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-indent: 2rem;
+    text-align: justify;
+}
+video{
+    background: transparent url('../image/video.jpg') 50% 50% / cover no-repeat ;
+}
+
+.jumbotron h2{
+    margin-bottom: 35px;
+}

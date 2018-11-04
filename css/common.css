@@ -1,0 +1,36 @@
+.navbar{
+    background-color: #393D49;
+}
+.container>.navbar-header{
+    margin-right: 30px;
+}
+
+.navbar-brand {
+    color: #f2f2f2!important;
+    line-height: 40px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.navbar li a{
+    color: #f2f2f2!important;
+    line-height: 40px;
+    padding: 20px;
+    font-size: 16px;
+    margin-right: 12px;
+}
+
+#navbar li a:hover{
+    background-color: #FF5722!important;
+}
+
+.myactive{
+    background-color: #FF5722!important;
+}
+
+.footer {
+    margin-top: 1.6rem;
+}
+.footer hr{
+    border-top: 1px solid #dedede;
+}
