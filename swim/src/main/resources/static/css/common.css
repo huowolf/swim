@@ -1,0 +1,54 @@
+.navbar{
+    /* #393D49 */
+    background-color: rgba(57, 61, 73, 0.9);
+}
+.container>.navbar-header{
+    margin-right: 30px;
+}
+
+.navbar-brand {
+    color: #f2f2f2!important;
+    line-height: 40px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.navbar li a{
+    color: #f2f2f2!important;
+    line-height: 40px;
+    padding: 20px;
+    font-size: 16px;
+    margin-right: 12px;
+}
+
+#navbar li a:hover{
+    /* #FF5722!important */
+    background-color: rgb(57, 61, 74);
+}
+
+.myactive{
+    background-color: rgb(57, 61, 74);
+}
+
+.footer {
+    margin-top: 1.6rem;
+}
+.footer hr{
+    border-top: 1px solid #dedede;
+}
+
+#scrollUp {
+    background-color: #777;
+    border: medium none;
+    bottom: 80px;
+    color: #eee;
+    font-size: 40px;
+    height: 46px;
+    line-height: 1;
+    opacity: 0.8;
+    overflow: hidden;
+    right: 30px;
+    text-align: center;
+    text-decoration: none;
+    width: 46px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>教练列表</title>
+    <link rel="stylesheet" href="../layui/css/layui.css">
+    <link rel="stylesheet" href="../bg/css/trainer.css">
+</head>
+<body class="layui-layout-body">
+<div class="layui-layout layui-layout-admin">
+    <div class="layui-header">
+        <div class="layui-logo">后台管理系统</div>
+        <!-- 头部区域（可配合layui已有的水平导航） -->
+        <ul class="layui-nav layui-layout-left">
+            <li class="layui-nav-item"><a href="/">首页</a></li>
+            <li class="layui-nav-item"><a href="/trainer/list">教练管理</a></li>
+            <li class="layui-nav-item"><a href="/user/list">用户管理</a></li>
+        </ul>
+        <ul class="layui-nav layui-layout-right">
+            <li class="layui-nav-item">
+                <a href="javascript:;">
+                    <span th:text="${session.loginInfo.name}">张三</span>
+                </a>
+            </li>
+            <li class="layui-nav-item"><a href="/logout">退出</a></li>
+        </ul>
+    </div>
+
+
+    <!-- 内容主体区域 -->
+    <div class="container">
+        <h2>教练信息</h2>
+        <button class="layui-btn layui-btn-radius" id="add-trainer" lay-event="add">添加教练</button>
+        <script type="text/html" id="userbar">
+            <!--<a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>-->
+            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+        </script>
+        <table id="user" lay-filter="user" align="center"></table>
+    </div>
+
+
+    <!-- 底部固定区域 -->
+    <div class="layui-footer">
+        <span>© 2018 <a href="javascript:;"> 版权所有</a></span>
+    </div>
+
+</div>
+<script src="/static/layui/layui.all.js"></script>
+<script src="/static/bg/js/trainer.js"></script>
+
+
+<script type="text/html" id="photoTpl">
+    {{#  if(d.photo != null){ }}
+    <div><img src="/{{d.photo}}"></div>
+    {{#  }  }}
+</script>
+</body>
+</html>

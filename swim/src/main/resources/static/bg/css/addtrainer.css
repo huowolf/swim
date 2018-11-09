@@ -1,0 +1,35 @@
+
+.layui-nav * {
+    font-size: 16px;
+}
+
+.layui-header .layui-logo{
+    font-size: 20px;
+    /*color:#37aee9*/
+}
+
+.layui-layout-admin .layui-footer{
+    text-align: center;
+    left: 0;
+    margin-top:30px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#photo{
+    padding: 20px;
+}
+#description{
+    width: 440px;
+    min-height: 130px;
+}
+img{
+    display: block;
+    width: 400px;
+}
+.layui-input-inline{
+    width: 250px!important;
+}

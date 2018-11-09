@@ -1,0 +1,58 @@
+.navbar{
+    margin: 0;
+    border: 0;
+}
+.container-fluid{
+    padding: 0;
+}
+#indexCarousel img{
+    width: 100%;
+    height: 500px;
+}
+
+.jumbotron{
+    margin-top: 20px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.left-content{
+    width: 500px;
+    height: 300px;
+}
+
+.right-content{
+    width: 440px;
+    padding: 0 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-indent: 2rem;
+    text-align: justify;
+}
+video{
+    background: transparent url('../image/video.jpg') 50% 50% / cover no-repeat ;
+}
+
+.jumbotron h2{
+    margin: 40px 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.bigbanner img{
+    width: 100%;
+}
+
+.col-md-4{
+    padding: 10px 20px;
+}
+.col-md-4 img{
+    width: 100%;
+    height: 290px;
+}
+
+.col-md-4 p{
+    font-size:16px;
+    text-align: center;
+    margin: 20px 0;
+}

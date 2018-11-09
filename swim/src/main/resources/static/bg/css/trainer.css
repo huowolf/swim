@@ -1,0 +1,38 @@
+
+.layui-nav * {
+    font-size: 16px;
+}
+
+.layui-header .layui-logo{
+    font-size: 20px;
+    /*color:#37aee9*/
+}
+
+.layui-layout-admin .layui-footer{
+    text-align: center;
+    left: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.container h2{
+    margin: 30px 10px;
+}
+
+h2{
+    display: inline-block;
+}
+
+#add-trainer{
+    margin-left: 20px;
+}
+
+td .layui-table-cell{height:120px;line-height:120px;}
+.layui-table-cell img{
+    height:120px;
+    width: 120px;
+}
+
